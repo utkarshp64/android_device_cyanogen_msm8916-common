@@ -4,4 +4,5 @@
 allow system_server domain:process setsched;
 
 # Theme Manager
+allow system_server unlabeled:file unlink;
 allow system_server theme_data_file:file read;
