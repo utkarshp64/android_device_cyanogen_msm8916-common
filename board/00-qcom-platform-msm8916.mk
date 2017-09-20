@@ -40,3 +40,7 @@ endif
 TARGET_POWERHAL_VARIANT := qcom
 TARGET_RIL_VARIANT := caf
 MALLOC_SVELTE := true
+
+# Use Snapdragon LLVM, if available
+TARGET_USE_SDCLANG := true
+
